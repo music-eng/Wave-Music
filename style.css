@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+body {
+    color: aliceblue;
+}
+
+html.dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(12,15,18,var(--tw-bg-opacity));
+}
+
+li a {
+    font-weight: bolder;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 70px;
+    background-color: #111727;
+}
+
+.brand img{
+    width: 70px;
+    padding: 0 8px;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem ;
+}
+
+
+
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: burlywood;
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul.breadcrumb, ul.breadcrumb a {
+    color: black;
+}
+
+ul.breadcrumb {
+    background: grey;
+}
+
+ul.breadcrumb {
+    list-style: none;
+}
+
+ul.breadcrumb li::before {
+    color: black;
+    content: "\f105";
+    font-family: FontAwesome;
+    position: relative;
+    top: 1px;
+    padding-left: 4px;
+    font-size: 16px;
+}
+
+ul {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-start: 0px;
+    padding-inline-start: 40px;
+}
+
+.icons {
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.audio {
+    position: absolute;
+    align-self: center;
+    
+}
+
+#myProgressBar{
+    width: 80VW;
+    text-align:center ;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 74px;
+}
+
+.quick_links{
+    width: 100%;
+    margin: 10px  auto;
+    margin-top: 0px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-text-decoration-skip: objects;
+}
+
+.quick_links a {
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 40px;
+    display: inline-block;
+    width: 10;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px;
+    transition: ease all 0.5s;
+    
+ 
+}
+
+.songItem {
+     height: 50px;
+     display: flex;
+     background-color: whitesmoke ;
+     width: 150%;
+     margin:90px 0 ;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 34px;
+     display: flex;
+}
+
+.songItem img{
+    width: 85px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+   opacity: 0;
+   transition: opacity is ease-in;
+}
+
+.div-nogap {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.h1{
+    text-align: center;
+    
+}
+
+div {
+    display: block;
+}
+
+.clearfix {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+
+.fileslist{
+    background-color: aqua;
+}
+
+.title1 {
+    color: black;
+    background-color: #666;
+    padding: 10px;
+}
+
+.searchbar {
+    border: 0;
+    border-radius: 500px;
+    color: #000;
+    height: 40px;
+    padding: 6px 48px;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin: 10px;
+}
+body, button, input, select, textarea {
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+}
+body, input {
+    color: #b3b3b3;
+    text-transform: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.qHWqOt_TYlFxiF0Dm2fD>* {
+    -webkit-app-region: no-drag;
+    pointer-events: auto;
+}
+.searchbar {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-app-region: drag;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    pointer-events: none;
+}
+
